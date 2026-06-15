@@ -1,0 +1,21 @@
+    Console.WriteLine("Leccion 1 y act 2 (lec16 y 30)!");
+    Console.WriteLine("Titty Urrutia IVE");
+    int[] edadpersona = new int[7];
+    int cantidaddepersonasayores = 0;
+
+    for (int i = 0; i < edadpersona.Length; i++)
+        (
+            edadpersona[i]=Convert.ToInt32(Console.ReadLine());
+    if (edadpersona[i]>=18)
+        cantidaddepersonasayores++;
+}
+
+Console.Clear();
+Console.WriteLine("Las edades impresas son: ");
+for (int i = 0; i < edadpersona.Lengh; i++)
+{
+    Console.WriteLine(edadpersona[1]);
+}
+Console.WriteLine("La cantidad de mayores es: " + cantidaddepersonasmayores);
+
+
